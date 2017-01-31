@@ -25,10 +25,28 @@ namespace EAD2PhoneBook.Controllers
             };
         }
 
-
+        // api/phonebook
         public IHttpActionResult GetAllContacts()
         {
             return Ok(contacts.OrderBy(c => c.Name).ToList());
+        }
+
+        // /api/phonebook/Gareth or /api/phonebook?Gareth
+        [Route("api/phonebook/{name:alpha}")]
+        public IHttpActionResult GetContactByName(string name)
+        {
+            var contact = from c in contacts
+                          where c.Name.Contains(name)
+                          select c;
+
+            return Ok(contact);
+        }
+
+        [Route("api/phonebook/{number:int}")]
+        public IHttpActionResult GetContactByNumber(int number)
+        {
+            PhoneBook contact = contacts.SingleOrDefault(c => c.Number == number);
+            return Ok(contact);
         }
     }
 }
