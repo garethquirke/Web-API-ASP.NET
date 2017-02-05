@@ -1,0 +1,86 @@
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\Weather\Weather\bin\Weather.dll
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\Weather\Weather\bin\Weather.pdb
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\Weather\Weather\bin\Newtonsoft.Json.dll
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\Weather\Weather\bin\System.Net.Http.Formatting.dll
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\Weather\Weather\bin\System.Web.Http.dll
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\Weather\Weather\bin\System.Web.Http.WebHost.dll
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\Weather\Weather\bin\Newtonsoft.Json.xml
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\Weather\Weather\bin\System.Net.Http.Formatting.xml
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\Weather\Weather\bin\System.Web.Http.xml
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\Weather\Weather\bin\System.Web.Http.WebHost.xml
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\Weather\Weather\obj\Debug\Weather.dll
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\Weather\Weather\obj\Debug\Weather.pdb
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\Weather\Weather\obj\Debug\Weather.csprojResolveAssemblyReference.cache
+C:\Users\gary.LAB040-17\OneDrive\Weather\Weather\bin\Weather.dll
+C:\Users\gary.LAB040-17\OneDrive\Weather\Weather\bin\Weather.pdb
+C:\Users\gary.LAB040-17\OneDrive\Weather\Weather\bin\Newtonsoft.Json.dll
+C:\Users\gary.LAB040-17\OneDrive\Weather\Weather\bin\System.Net.Http.Formatting.dll
+C:\Users\gary.LAB040-17\OneDrive\Weather\Weather\bin\System.Web.Http.dll
+C:\Users\gary.LAB040-17\OneDrive\Weather\Weather\bin\System.Web.Http.WebHost.dll
+C:\Users\gary.LAB040-17\OneDrive\Weather\Weather\bin\Newtonsoft.Json.xml
+C:\Users\gary.LAB040-17\OneDrive\Weather\Weather\bin\System.Net.Http.Formatting.xml
+C:\Users\gary.LAB040-17\OneDrive\Weather\Weather\bin\System.Web.Http.xml
+C:\Users\gary.LAB040-17\OneDrive\Weather\Weather\bin\System.Web.Http.WebHost.xml
+C:\Users\gary.LAB040-17\OneDrive\Weather\Weather\obj\Debug\Weather.csprojResolveAssemblyReference.cache
+C:\Users\gary.LAB040-17\OneDrive\Weather\Weather\obj\Debug\Weather.dll
+C:\Users\gary.LAB040-17\OneDrive\Weather\Weather\obj\Debug\Weather.pdb
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\Weather.dll.config
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\Weather.dll
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\Weather.pdb
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\Newtonsoft.Json.dll
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\System.Net.Http.Formatting.dll
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\System.Web.Http.dll
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\System.Web.Http.WebHost.dll
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\Newtonsoft.Json.xml
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\System.Net.Http.Formatting.xml
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\System.Web.Http.xml
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\System.Web.Http.WebHost.xml
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\obj\Debug\Weather.csprojResolveAssemblyReference.cache
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\obj\Debug\Weather.dll
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\obj\Debug\Weather.pdb
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\Swashbuckle.Core.dll
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\WebActivatorEx.dll
+C:\Users\gclynch\OneDrive\Web API 2.2\Weather\Weather\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\Weather.dll.config
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\Weather.dll
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\Weather.pdb
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\Newtonsoft.Json.dll
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\Swashbuckle.Core.dll
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\System.Net.Http.Formatting.dll
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\System.Web.Http.dll
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\System.Web.Http.WebHost.dll
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\WebActivatorEx.dll
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\Newtonsoft.Json.xml
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\System.Net.Http.Formatting.xml
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\System.Web.Http.xml
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\bin\System.Web.Http.WebHost.xml
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\obj\Debug\Weather.csprojResolveAssemblyReference.cache
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\obj\Debug\Weather.dll
+C:\Users\gclynch\OneDrive\Web API 2 2\Weather\Weather\obj\Debug\Weather.pdb
+C:\Gary\Web API 2 2\Weather\Weather\bin\Weather.dll.config
+C:\Gary\Web API 2 2\Weather\Weather\bin\Weather.dll
+C:\Gary\Web API 2 2\Weather\Weather\bin\Weather.pdb
+C:\Gary\Web API 2 2\Weather\Weather\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Gary\Web API 2 2\Weather\Weather\bin\Microsoft.Web.Infrastructure.dll
+C:\Gary\Web API 2 2\Weather\Weather\bin\Newtonsoft.Json.dll
+C:\Gary\Web API 2 2\Weather\Weather\bin\Swashbuckle.Core.dll
+C:\Gary\Web API 2 2\Weather\Weather\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Gary\Web API 2 2\Weather\Weather\bin\System.Net.Http.Formatting.dll
+C:\Gary\Web API 2 2\Weather\Weather\bin\System.Web.Http.dll
+C:\Gary\Web API 2 2\Weather\Weather\bin\System.Web.Http.WebHost.dll
+C:\Gary\Web API 2 2\Weather\Weather\bin\WebActivatorEx.dll
+C:\Gary\Web API 2 2\Weather\Weather\bin\Newtonsoft.Json.xml
+C:\Gary\Web API 2 2\Weather\Weather\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Gary\Web API 2 2\Weather\Weather\bin\System.Net.Http.Formatting.xml
+C:\Gary\Web API 2 2\Weather\Weather\bin\System.Web.Http.xml
+C:\Gary\Web API 2 2\Weather\Weather\bin\System.Web.Http.WebHost.xml
+C:\Gary\Web API 2 2\Weather\Weather\obj\Debug\Weather.csprojResolveAssemblyReference.cache
+C:\Gary\Web API 2 2\Weather\Weather\obj\Debug\Weather.dll
+C:\Gary\Web API 2 2\Weather\Weather\obj\Debug\Weather.pdb
