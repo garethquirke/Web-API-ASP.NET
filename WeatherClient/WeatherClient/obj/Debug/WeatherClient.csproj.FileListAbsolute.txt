@@ -1,0 +1,95 @@
+C:\gary\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe.config
+C:\gary\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe
+C:\gary\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\WeatherClient.pdb
+C:\gary\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.dll
+C:\gary\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\gary\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.xml
+C:\gary\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\gary\EAD\ASP.Net Web API\WeatherClient\WeatherClient\obj\Debug\WeatherClient.csprojResolveAssemblyReference.cache
+C:\gary\EAD\ASP.Net Web API\WeatherClient\WeatherClient\obj\Debug\WeatherClient.exe
+C:\gary\EAD\ASP.Net Web API\WeatherClient\WeatherClient\obj\Debug\WeatherClient.pdb
+M:\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe.config
+M:\EAD\ASP.Net Web API\WeatherClient\WeatherClient\obj\Debug\WeatherClient.exe
+M:\EAD\ASP.Net Web API\WeatherClient\WeatherClient\obj\Debug\WeatherClient.pdb
+M:\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe
+M:\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\WeatherClient.pdb
+M:\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.dll
+M:\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.dll
+M:\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.xml
+M:\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.xml
+M:\EAD\ASP.Net Web API\WeatherClient\WeatherClient\obj\Debug\WeatherClient.csprojResolveAssemblyReference.cache
+E:\EAD\ASP.Net Web API\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe.config
+E:\EAD\ASP.Net Web API\WeatherClient\WeatherClient\obj\Debug\WeatherClient.exe
+E:\EAD\ASP.Net Web API\WeatherClient\WeatherClient\obj\Debug\WeatherClient.pdb
+E:\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe.config
+E:\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\obj\Debug\WeatherClient.exe
+E:\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\obj\Debug\WeatherClient.pdb
+E:\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\obj\Debug\WeatherClient.csprojResolveAssemblyReference.cache
+E:\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe
+E:\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\bin\Debug\WeatherClient.pdb
+E:\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.dll
+E:\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.dll
+E:\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.xml
+E:\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Gary\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe.config
+C:\Gary\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe
+C:\Gary\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\bin\Debug\WeatherClient.pdb
+C:\Gary\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.dll
+C:\Gary\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Gary\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.xml
+C:\Gary\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Gary\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\obj\Debug\WeatherClient.exe
+C:\Gary\EAD2\ROA\ASP.Net Web API\CA1\WeatherClient\WeatherClient\obj\Debug\WeatherClient.pdb
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe.config
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\WeatherClient\WeatherClient\obj\Debug\WeatherClient.exe
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\WeatherClient\WeatherClient\obj\Debug\WeatherClient.pdb
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\WeatherClient\WeatherClient\obj\Debug\WeatherClient.csprojResolveAssemblyReference.cache
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\WeatherClient\WeatherClient\bin\Debug\WeatherClient.pdb
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.dll
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.xml
+C:\Gary\EAD2\ROA\ASP.Net Web API 2.1\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\gary.LAB040-17\OneDrive\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe.config
+C:\Users\gary.LAB040-17\OneDrive\WeatherClient\WeatherClient\obj\Debug\WeatherClient.exe
+C:\Users\gary.LAB040-17\OneDrive\WeatherClient\WeatherClient\obj\Debug\WeatherClient.pdb
+C:\Users\gary.LAB040-17\OneDrive\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe
+C:\Users\gary.LAB040-17\OneDrive\WeatherClient\WeatherClient\bin\Debug\WeatherClient.pdb
+C:\Users\gary.LAB040-17\OneDrive\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gary.LAB040-17\OneDrive\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\gary.LAB040-17\OneDrive\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gary.LAB040-17\OneDrive\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\gary.LAB040-17\OneDrive\WeatherClient\WeatherClient\obj\Debug\WeatherClient.csprojResolveAssemblyReference.cache
+C:\Users\gary.LAB040-17\OneDrive\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe.config
+C:\Users\gary.LAB040-17\OneDrive\Web API 2 2\WeatherClient\WeatherClient\obj\Debug\WeatherClient.exe
+C:\Users\gary.LAB040-17\OneDrive\Web API 2 2\WeatherClient\WeatherClient\obj\Debug\WeatherClient.pdb
+C:\Users\gclynch\OneDrive\Web API 2.2\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe.config
+C:\Users\gclynch\OneDrive\Web API 2.2\WeatherClient\WeatherClient\obj\Debug\WeatherClient.exe
+C:\Users\gclynch\OneDrive\Web API 2.2\WeatherClient\WeatherClient\obj\Debug\WeatherClient.pdb
+C:\Users\gclynch\OneDrive\Web API 2.2\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe
+C:\Users\gclynch\OneDrive\Web API 2.2\WeatherClient\WeatherClient\bin\Debug\WeatherClient.pdb
+C:\Users\gclynch\OneDrive\Web API 2.2\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gclynch\OneDrive\Web API 2.2\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\gclynch\OneDrive\Web API 2.2\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gclynch\OneDrive\Web API 2.2\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\gclynch\OneDrive\Web API 2.2\WeatherClient\WeatherClient\obj\Debug\WeatherClient.csprojResolveAssemblyReference.cache
+C:\Users\gclynch\OneDrive\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe.config
+C:\Users\gclynch\OneDrive\Web API 2 2\WeatherClient\WeatherClient\obj\Debug\WeatherClient.exe
+C:\Users\gclynch\OneDrive\Web API 2 2\WeatherClient\WeatherClient\obj\Debug\WeatherClient.pdb
+C:\Users\gclynch\OneDrive\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe
+C:\Users\gclynch\OneDrive\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\WeatherClient.pdb
+C:\Users\gclynch\OneDrive\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gclynch\OneDrive\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\gclynch\OneDrive\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gclynch\OneDrive\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\gclynch\OneDrive\Web API 2 2\WeatherClient\WeatherClient\obj\Debug\WeatherClient.csprojResolveAssemblyReference.cache
+C:\Gary\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe.config
+C:\Gary\Web API 2 2\WeatherClient\WeatherClient\obj\Debug\WeatherClient.exe
+C:\Gary\Web API 2 2\WeatherClient\WeatherClient\obj\Debug\WeatherClient.pdb
+C:\Gary\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe
+C:\Gary\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\WeatherClient.pdb
+C:\Gary\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.dll
+C:\Gary\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Gary\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\Newtonsoft.Json.xml
+C:\Gary\Web API 2 2\WeatherClient\WeatherClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Gary\Web API 2 2\WeatherClient\WeatherClient\obj\Debug\WeatherClient.csprojResolveAssemblyReference.cache
