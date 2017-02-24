@@ -75,6 +75,23 @@ namespace EAD2CA1Lab2.Controllers
             }
         }
 
+        public IHttpActionResult DeleteListing(string city)
+        {
+            lock (forecasts)
+            {
+                var record = forecasts.SingleOrDefault(f => f.City.ToUpper() == city.ToUpper());
+                if(record != null)
+                {
+                    forecasts.Remove(record);
+                    return Ok(forecasts.OrderBy(f => f.City).ToList());
+                }
+                else
+                {
+                    return NotFound();
+                }
+            }
+        }
+
 
         public void UpdateCityWeather(string city, Weather weather)
         {

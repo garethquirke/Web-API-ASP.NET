@@ -89,7 +89,7 @@ namespace WeatherClient
         {
             try
             {
-                using(HttpClient client = new HttpClient())
+                using (HttpClient client = new HttpClient())
                 {
                     client.BaseAddress = new Uri(address);
                     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
@@ -113,10 +113,39 @@ namespace WeatherClient
                         Console.WriteLine(response.StatusCode + " " + response.ReasonPhrase);
                     }
                 }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
 
 
+        // Delete a city
+        static async Task DeleteForecast()
+        {
+            try
+            {
+                using (HttpClient client = new HttpClient())
+                {
+                    client.BaseAddress = new Uri(address);
+                    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-            }catch(Exception e)
+                    Console.WriteLine("Delete a city's forecast\n");
+
+                    HttpResponseMessage response = await client.DeleteAsync("api/weather/DeleteListing/Mayo");
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        Console.WriteLine(response.StatusCode + " " + response.ReasonPhrase);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Deleted the record");
+                        GetAllWeather().Wait();
+                    }
+                }
+            }
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
@@ -129,6 +158,7 @@ namespace WeatherClient
             GetCityWeather().Wait();
 
             AddAForecast().Wait();
+            DeleteForecast().Wait();
 
             Console.ReadLine();
         }
