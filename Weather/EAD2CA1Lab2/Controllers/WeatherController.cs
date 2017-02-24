@@ -46,6 +46,36 @@ namespace EAD2CA1Lab2.Controllers
             return cities;
         }
 
+
+        // POST: Forecast
+        public IHttpActionResult PostForecast(Weather weather)
+        {
+            if (ModelState.IsValid)
+            {
+                lock (forecasts)
+                {
+                    // check for duplicate
+                    var forecast = forecasts.SingleOrDefault(f => f.City.ToUpper() == weather.City.ToUpper());
+                    if(forecast == null)
+                    {
+                        forecasts.Add(weather);
+
+                        string uri = Request.RequestUri.ToString() + "id/" + weather.City;
+                        return Created(uri, weather);
+                    }
+                    else
+                    {
+                        return BadRequest("resource already exsists");
+                    }
+                }
+            }
+            else
+            {
+                return BadRequest();
+            }
+        }
+
+
         public void UpdateCityWeather(string city, Weather weather)
         {
             if (ModelState.IsValid)

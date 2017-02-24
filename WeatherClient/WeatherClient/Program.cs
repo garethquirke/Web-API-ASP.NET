@@ -8,75 +8,33 @@ namespace WeatherClient
 {
     class Program
     {
-        static async Task Run()
+        static string address = "http://localhost:51811/";
+        /*
+         * GET /api/weather                  get weather information for all cities       GetAllWeatherInformation()
+         * GET /api/weather/city             get weather information for city             GetWeatherInformationForCity(city)
+         * GET /api/weather?warning=true     get cities which have a weather warning      GetCitiesForWarningStatus(true)
+         * PUT /api/weather                  update weather information for city          PutWeatherInformationForCity(city)
+         */
+
+        static async Task GetAllWeather()
         {
             try
             {
-                using(HttpClient client = new HttpClient())
+                using (HttpClient client = new HttpClient())
                 {
-                    client.BaseAddress = new Uri("http://localhost:51811/");
+                    client.BaseAddress = new Uri(address);
                     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
                     Console.WriteLine("Retrieve all Forecasts \n");
-                    // Retrieve all forecasts
-                    HttpResponseMessage response = await client.GetAsync("api/weather");               
-                    if (response.IsSuccessStatusCode)                                                  
-                    {
-                        // read result 
-                        var weather = await response.Content.ReadAsAsync<IEnumerable<Weather>>();
-                        foreach (var w in weather)
-                        {
-                            Console.WriteLine(w.City + " " + w.Temperature + "C " + w.WindSpeed + "km/h " + w.Conditions + " warning: " + w.WeatherWarning);
-                        }
-                    }
-                    else
-                    {
-                        Console.WriteLine(response.StatusCode + " " + response.ReasonPhrase);
-                    }
 
-
-
-                    Console.WriteLine("Forecast for Dublin \n");
-                    // 2
-                    // get weather info for Dublin
-                    // GET ../api/weather/Dublin
-                    Weather weatherInfo = new Weather();
-                    response = await client.GetAsync("api/weather/Dublin");
+                    HttpResponseMessage response = await client.GetAsync("/api/weather/");
                     if (response.IsSuccessStatusCode)
                     {
-                        // read result 
-                        weatherInfo = await response.Content.ReadAsAsync<Weather>();
-                        Console.WriteLine(weatherInfo.City + " " + weatherInfo.Temperature + "C " + weatherInfo.WindSpeed + "km/h " + weatherInfo.Conditions + " Warning: " + weatherInfo.WeatherWarning);
-                    }
-                    else
-                    {
-                        Console.WriteLine(response.StatusCode + " " + response.ReasonPhrase);
-                    }
-
-
-                    Console.WriteLine("Update forecast for Dublin \n");
-                    // 3
-                    // update by Put to api/weather/Dublin - now its sunny
-                    weatherInfo.Conditions = "Sunny";
-                    response = await client.PutAsJsonAsync("api/weather/Dublin", weatherInfo);
-                    if (!response.IsSuccessStatusCode)
-                    {
-                        Console.WriteLine(response.StatusCode + " " + response.ReasonPhrase);
-                    }
-
-
-                    Console.WriteLine("Retrieve the weather warnings in places\n");
-                    // 4
-                    // get cities with weather warnings in place
-                    // GET ../api/weather?warning=true
-                    response = await client.GetAsync("api/weather?warning=true");
-                    if (response.IsSuccessStatusCode)
-                    {
-                        // read result 
-                        var cities = await response.Content.ReadAsAsync<IEnumerable<String>>();
-                        foreach (String city in cities)
+                        var posts = await response.Content.ReadAsAsync<ICollection<Weather>>();
+                        foreach (var p in posts)
                         {
-                            Console.WriteLine(city);
+                            Console.WriteLine("City: " + p.City + "\nTemperature: " + p.Temperature + "\nWeather Condition: " + p.Conditions
+                                             + "\nWind Speed: " + p.WindSpeed + "\nWarning :" + p.WeatherWarning + "\n");
                         }
                     }
                     else
@@ -90,9 +48,88 @@ namespace WeatherClient
                 Console.WriteLine(e.ToString());
             }
         }
+
+        static async Task GetCityWeather()
+        {
+            try
+            {
+                using (HttpClient client = new HttpClient())
+                {
+                    client.BaseAddress = new Uri(address);
+                    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                    Console.WriteLine("Retrieve forecast for a city\n");
+
+                    HttpResponseMessage response = await client.GetAsync("/api/weather/Dublin");
+
+                    // example get where the city is Galway
+                    try
+                    {
+                        response.EnsureSuccessStatusCode();
+                        var post = await response.Content.ReadAsAsync<IList<Weather>>();
+                        var p = post[0];
+                        Console.WriteLine("City: " + p.City + "\nTemperature: " + p.Temperature + "\nWeather Condition: " + p.Conditions
+                                             + "\nWind Speed: " + p.WindSpeed + "\nWarning :" + p.WeatherWarning + "\n");
+
+                    }
+                    catch (HttpRequestException e)
+                    {
+                        Console.WriteLine(e.Message);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        // Add a post
+        static async Task AddAForecast()
+        {
+            try
+            {
+                using(HttpClient client = new HttpClient())
+                {
+                    client.BaseAddress = new Uri(address);
+                    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                    Console.WriteLine("Update a city's forecast\n");
+
+                    Weather weatherUpdate = new Weather() { City = "Amsterdam", Temperature = 32, Conditions = "Sun is shining baby - costa del crumlin", WindSpeed = 1, WeatherWarning = true };
+                    HttpResponseMessage response = await client.PostAsJsonAsync("/api/weather/", weatherUpdate);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        Uri postURI = response.Headers.Location;
+                        var newCity = await response.Content.ReadAsAsync<Weather>();
+
+                        Console.WriteLine("URI for new resource: " + postURI.ToString());
+                        Console.WriteLine("City: " + newCity.City + "\nTemperature: " + newCity.Temperature + "\nWeather Condition: " + newCity.Conditions
+                                             + "\nWind Speed: " + newCity.WindSpeed + "\nWarning :" + newCity.WeatherWarning + "\n");
+                    }
+                    else
+                    {
+                        Console.WriteLine(response.StatusCode + " " + response.ReasonPhrase);
+                    }
+                }
+
+
+
+            }catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+
         static void Main(string[] args)
         {
-            Run().Wait();
+            GetAllWeather().Wait();
+            GetCityWeather().Wait();
+
+            AddAForecast().Wait();
+
             Console.ReadLine();
         }
     }
