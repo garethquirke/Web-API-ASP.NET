@@ -94,9 +94,9 @@ namespace WeatherClient
                     client.BaseAddress = new Uri(address);
                     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-                    Console.WriteLine("Update a city's forecast\n");
+                    Console.WriteLine("Add a new forecast\n");
 
-                    Weather weatherUpdate = new Weather() { City = "Amsterdam", Temperature = 32, Conditions = "Sun is shining baby - costa del crumlin", WindSpeed = 1, WeatherWarning = true };
+                    Weather weatherUpdate = new Weather() { City = "Tunisia", Temperature = 32, Conditions = "Sun is shining baby - costa del crumlin", WindSpeed = 1, WeatherWarning = true };
                     HttpResponseMessage response = await client.PostAsJsonAsync("/api/weather/", weatherUpdate);
 
                     if (response.IsSuccessStatusCode)
@@ -133,7 +133,7 @@ namespace WeatherClient
 
                     Console.WriteLine("Delete a city's forecast\n");
 
-                    HttpResponseMessage response = await client.DeleteAsync("api/weather/DeleteListing/Mayo");
+                    HttpResponseMessage response = await client.DeleteAsync("api/weather/DeleteListing/Limerick");
                     if (!response.IsSuccessStatusCode)
                     {
                         Console.WriteLine(response.StatusCode + " " + response.ReasonPhrase);
@@ -150,6 +150,47 @@ namespace WeatherClient
                 Console.WriteLine(e.Message);
             }
         }
+
+        // Update a forecast
+        static async Task UpdateForecast()
+        {
+            try
+            {
+
+                using (HttpClient client = new HttpClient())
+                {
+                    client.BaseAddress = new Uri(address);
+                    Console.WriteLine("Update a forecast\n");
+
+                    Weather forecast = new Weather() { City = "Dublin", Temperature = 24, Conditions = "Sunny", WindSpeed = 5, WeatherWarning = true };
+                    // Update the warning to false
+                    forecast.WeatherWarning = false;
+                    client.DefaultRequestHeaders.
+                        Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+
+                    // Make the request to our API
+                    HttpResponseMessage response = await client.PutAsJsonAsync("api/weather/update/Dublin", forecast);
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        Console.WriteLine(response.StatusCode + " " + response.ReasonPhrase);
+                    }
+                    else
+                    {
+                        // success - output updated city
+                        var updatedCity = await response.Content.ReadAsAsync<Weather>();
+                        Console.WriteLine(updatedCity.City + " has been updated");
+                    }
+                }
+
+
+            }
+            catch (Exception e)
+            {
+
+            }
+        }
+
 
 
         static void Main(string[] args)
