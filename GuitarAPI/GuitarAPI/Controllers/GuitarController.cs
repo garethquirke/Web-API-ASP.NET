@@ -8,6 +8,7 @@ using System.Web.Http;
 
 namespace GuitarAPI.Controllers
 {
+    [RoutePrefix("guitar")]
     public class GuitarController : ApiController
     {
         /* ID, Name, Make, isNew
@@ -25,14 +26,16 @@ namespace GuitarAPI.Controllers
             new Guitar { ID = 4, Name = "Mustang", Make = "Fender", IsNew = true, Stock = 5 },
             new Guitar { ID = 5, Name = "HummingBird", Make = "Gibson", IsNew = false, Stock = 3 }
         };
-
-        // GET: /api/guitar/
+      
+        // GET: /guitar/all
+        [Route("all")]
         public IEnumerable<Guitar> GetAllGuitars()
         {
             return inventory;
         }
 
-        // GET: /api/guitar/name
+        // GET: /guitar/name/Mustang
+        [Route("name/{name:alpha}")]
         public Guitar GetGuitarByName(string name)
         {
             Guitar guitar = inventory.FirstOrDefault(g => g.Name.ToUpper() == name.ToUpper());
@@ -43,16 +46,17 @@ namespace GuitarAPI.Controllers
             return guitar;
         }
 
-        // GET: /api/guitar/isNew
+        // GET: /guitar/new
         // get guitars that are new
-        public IEnumerable<string> GetNewGuitars()
+        [Route("new")]
+        public IEnumerable<Guitar> GetNewGuitars()
         {
-            var guitars = inventory.Where(g => g.IsNew == true).Select(g => g.Name);
+            var guitars = inventory.Where(g => g.IsNew == true);
             return guitars;
         }
 
         // POST a new guitar
-        [System.Web.Http.HttpPost]
+        [Route("")]
         public IHttpActionResult PostGuitar(Guitar guitar)
         {
             if (ModelState.IsValid)

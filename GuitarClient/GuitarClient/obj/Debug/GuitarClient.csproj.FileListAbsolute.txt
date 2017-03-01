@@ -8,3 +8,13 @@ c:\users\garet\documents\visual studio 2015\Projects\GuitarClient\GuitarClient\b
 c:\users\garet\documents\visual studio 2015\Projects\GuitarClient\GuitarClient\obj\Debug\GuitarClient.csprojResolveAssemblyReference.cache
 c:\users\garet\documents\visual studio 2015\Projects\GuitarClient\GuitarClient\obj\Debug\GuitarClient.exe
 c:\users\garet\documents\visual studio 2015\Projects\GuitarClient\GuitarClient\obj\Debug\GuitarClient.pdb
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarClient\GuitarClient\bin\Debug\GuitarClient.exe.config
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarClient\GuitarClient\obj\Debug\GuitarClient.exe
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarClient\GuitarClient\obj\Debug\GuitarClient.pdb
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarClient\GuitarClient\bin\Debug\GuitarClient.exe
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarClient\GuitarClient\bin\Debug\GuitarClient.pdb
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarClient\GuitarClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarClient\GuitarClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarClient\GuitarClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarClient\GuitarClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarClient\GuitarClient\obj\Debug\GuitarClient.csprojResolveAssemblyReference.cache
