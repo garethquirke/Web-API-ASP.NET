@@ -1,0 +1,10 @@
+c:\users\garet\documents\visual studio 2015\Projects\GuitarClient\GuitarClient\bin\Debug\GuitarClient.exe.config
+c:\users\garet\documents\visual studio 2015\Projects\GuitarClient\GuitarClient\bin\Debug\GuitarClient.exe
+c:\users\garet\documents\visual studio 2015\Projects\GuitarClient\GuitarClient\bin\Debug\GuitarClient.pdb
+c:\users\garet\documents\visual studio 2015\Projects\GuitarClient\GuitarClient\bin\Debug\Newtonsoft.Json.dll
+c:\users\garet\documents\visual studio 2015\Projects\GuitarClient\GuitarClient\bin\Debug\System.Net.Http.Formatting.dll
+c:\users\garet\documents\visual studio 2015\Projects\GuitarClient\GuitarClient\bin\Debug\Newtonsoft.Json.xml
+c:\users\garet\documents\visual studio 2015\Projects\GuitarClient\GuitarClient\bin\Debug\System.Net.Http.Formatting.xml
+c:\users\garet\documents\visual studio 2015\Projects\GuitarClient\GuitarClient\obj\Debug\GuitarClient.csprojResolveAssemblyReference.cache
+c:\users\garet\documents\visual studio 2015\Projects\GuitarClient\GuitarClient\obj\Debug\GuitarClient.exe
+c:\users\garet\documents\visual studio 2015\Projects\GuitarClient\GuitarClient\obj\Debug\GuitarClient.pdb
