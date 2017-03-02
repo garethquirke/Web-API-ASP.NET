@@ -18,3 +18,23 @@ C:\Users\x00108966\Documents\Visual Studio 2015\Projects\CA1-API-X00108966\CA1-A
 C:\Users\x00108966\Documents\Visual Studio 2015\Projects\CA1-API-X00108966\CA1-API-X00108966\obj\Debug\CA1-API-X00108966.csprojResolveAssemblyReference.cache
 C:\Users\x00108966\Documents\Visual Studio 2015\Projects\CA1-API-X00108966\CA1-API-X00108966\obj\Debug\CA1-API-X00108966.dll
 C:\Users\x00108966\Documents\Visual Studio 2015\Projects\CA1-API-X00108966\CA1-API-X00108966\obj\Debug\CA1-API-X00108966.pdb
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\CA1-API-X00108966.dll.config
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\CA1-API-X00108966.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\CA1-API-X00108966.pdb
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\Newtonsoft.Json.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\Swashbuckle.Core.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\System.Net.Http.Formatting.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\System.Web.Http.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\System.Web.Http.WebHost.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\WebActivatorEx.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\Newtonsoft.Json.xml
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\System.Net.Http.Formatting.xml
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\System.Web.Http.xml
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\bin\System.Web.Http.WebHost.xml
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\obj\Debug\CA1-API-X00108966.csprojResolveAssemblyReference.cache
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\obj\Debug\CA1-API-X00108966.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-API-X00108966\CA1-API-X00108966\obj\Debug\CA1-API-X00108966.pdb

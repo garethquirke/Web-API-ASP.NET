@@ -8,3 +8,13 @@ c:\users\x00108966\documents\visual studio 2015\Projects\CA1-CLIENT-X00108966\CA
 c:\users\x00108966\documents\visual studio 2015\Projects\CA1-CLIENT-X00108966\CA1-CLIENT-X00108966\obj\Debug\CA1-CLIENT-X00108966.csprojResolveAssemblyReference.cache
 c:\users\x00108966\documents\visual studio 2015\Projects\CA1-CLIENT-X00108966\CA1-CLIENT-X00108966\obj\Debug\CA1-CLIENT-X00108966.exe
 c:\users\x00108966\documents\visual studio 2015\Projects\CA1-CLIENT-X00108966\CA1-CLIENT-X00108966\obj\Debug\CA1-CLIENT-X00108966.pdb
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-CLIENT-X00108966\CA1-CLIENT-X00108966\bin\Debug\CA1-CLIENT-X00108966.exe.config
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-CLIENT-X00108966\CA1-CLIENT-X00108966\obj\Debug\CA1-CLIENT-X00108966.exe
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-CLIENT-X00108966\CA1-CLIENT-X00108966\obj\Debug\CA1-CLIENT-X00108966.pdb
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-CLIENT-X00108966\CA1-CLIENT-X00108966\bin\Debug\CA1-CLIENT-X00108966.exe
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-CLIENT-X00108966\CA1-CLIENT-X00108966\bin\Debug\CA1-CLIENT-X00108966.pdb
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-CLIENT-X00108966\CA1-CLIENT-X00108966\bin\Debug\Newtonsoft.Json.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-CLIENT-X00108966\CA1-CLIENT-X00108966\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-CLIENT-X00108966\CA1-CLIENT-X00108966\bin\Debug\Newtonsoft.Json.xml
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-CLIENT-X00108966\CA1-CLIENT-X00108966\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\CA 1\CA1-CLIENT-X00108966\CA1-CLIENT-X00108966\obj\Debug\CA1-CLIENT-X00108966.csprojResolveAssemblyReference.cache

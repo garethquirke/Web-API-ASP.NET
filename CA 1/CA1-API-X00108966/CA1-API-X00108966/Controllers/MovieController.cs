@@ -21,22 +21,22 @@ namespace CA1_API_X00108966.Controllers
 
         };
 
-        public MovieController()
-        {
-            SetAverage(catalog);
-        }
-        public void SetAverage(List<Movie> catalog)
-        {
-            catalog.Select(r => r.AverageRating = GetAverage());
-        }
+        //public MovieController()
+        //{
+        //    SetAverage(catalog);
+        //}
+        //public void SetAverage(List<Movie> catalog)
+        //{
+        //    catalog.Select(r => r.AverageRating = GetAverage());
+        //}
 
-        public double GetAverage()
-        {
+        //public double GetAverage()
+        //{
 
-            var avg = catalog.Select(r => r.Review.Rating).Average();
+        //    var avg = catalog.Select(r => r.Review.Rating).Average();
 
-            return avg;
-        }
+        //    return avg;
+        //}
 
         [Route("all")]
         public IHttpActionResult GetAllMovies()
@@ -86,7 +86,7 @@ namespace CA1_API_X00108966.Controllers
         {
             if (ModelState.IsValid)
             {
-                Movie movie = new Movie { ID = 4, Title = "Friday", Genre = new List<Genres> { Genres.adventure }, Certification = "UNIVERSAL", ReleaseDate = DateTime.Now, Review = review, AverageRating = 5 };
+                Movie movie = new Movie { ID = 4, Title = "Friday", Genre = new List<Genres> { Genres.adventure }, Certification = "UNIVERSAL", ReleaseDate = DateTime.Now, Review = review};
                 lock (catalog)
                 {
                     catalog.Add(movie);

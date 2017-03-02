@@ -22,7 +22,11 @@ namespace CA1_API_X00108966.Models
         // Read only property
         public double AverageRating
         {
-            get; set;
+            get
+            {
+                return Review.Rating / Review.Rating.ToString().Count();
+            }
+            
         }
     }
 
