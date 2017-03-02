@@ -21,23 +21,6 @@ namespace CA1_API_X00108966.Controllers
 
         };
 
-        //public MovieController()
-        //{
-        //    SetAverage(catalog);
-        //}
-        //public void SetAverage(List<Movie> catalog)
-        //{
-        //    catalog.Select(r => r.AverageRating = GetAverage());
-        //}
-
-        //public double GetAverage()
-        //{
-
-        //    var avg = catalog.Select(r => r.Review.Rating).Average();
-
-        //    return avg;
-        //}
-
         [Route("all")]
         public IHttpActionResult GetAllMovies()
         {
