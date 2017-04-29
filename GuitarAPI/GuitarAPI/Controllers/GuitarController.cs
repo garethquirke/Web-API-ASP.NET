@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Web.Http;
+using GuitarAPI.DAL;
 
 
 namespace GuitarAPI.Controllers
@@ -11,34 +12,27 @@ namespace GuitarAPI.Controllers
     [RoutePrefix("guitar")]
     public class GuitarController : ApiController
     {
+
+        private GuitarRepository repo = new GuitarRepository();
         /* ID, Name, Make, isNew
          * 
          * 
-         * GET /api/guitar/
-         * GET /api/guitar/name
+         * GET /guitar/all
+         * GET /guitar/name
          */
 
-        private static List<Guitar> inventory = new List<Guitar>()
-        {
-            new Guitar { ID = 1, Name = "Strat", Make = "Fender", IsNew = true, Stock = 3 },
-            new Guitar { ID = 2, Name = "Tele", Make = "Fender", IsNew = true, Stock = 2 },
-            new Guitar { ID = 3, Name = "SG", Make = "Gibson", IsNew = false, Stock = 1 },
-            new Guitar { ID = 4, Name = "Mustang", Make = "Fender", IsNew = true, Stock = 5 },
-            new Guitar { ID = 5, Name = "HummingBird", Make = "Gibson", IsNew = false, Stock = 3 }
-        };
-      
         // GET: /guitar/all
         [Route("all")]
         public IEnumerable<Guitar> GetAllGuitars()
         {
-            return inventory;
+            return repo.GetAllGuitars();
         }
 
         // GET: /guitar/name/Mustang
         [Route("name/{name:alpha}")]
         public Guitar GetGuitarByName(string name)
         {
-            Guitar guitar = inventory.FirstOrDefault(g => g.Name.ToUpper() == name.ToUpper());
+            Guitar guitar = repo.GetGuitarByName(name);
             if (guitar == null)
             {
                 throw new HttpResponseException(HttpStatusCode.NotFound);
@@ -51,7 +45,7 @@ namespace GuitarAPI.Controllers
         [Route("new")]
         public IEnumerable<Guitar> GetNewGuitars()
         {
-            var guitars = inventory.Where(g => g.IsNew == true);
+            var guitars = repo.GetNewGuitars();
             return guitars;
         }
 
@@ -61,26 +55,20 @@ namespace GuitarAPI.Controllers
         {
             if (ModelState.IsValid)
             {
-                lock (inventory)
+
+                int i = repo.AddGuitar(guitar);
+                if(i == 1)
                 {
-                    // check the stock see if its already there
-                    var stock = inventory.SingleOrDefault(g => g.Name.ToUpper() == guitar.Name.ToUpper());
-                    if (stock == null)
-                    {
-                        inventory.Add(guitar);
-
-                        string uri = Request.RequestUri.ToString() + "id/" + guitar.Name;
-                        // string uri = HttpReque
-
-                        return Created(uri, guitar);
-                    }
-                    else
-                    {
-                        stock.Stock++;
-                        string uri = Request.RequestUri.ToString() + "id/" + guitar.Name + " has been stock updated";
-                        return Created(uri, guitar);
-                    }
+                    string uri = Request.RequestUri.ToString() + "id/" + guitar.Name;
+                    return Created(uri, guitar);
                 }
+                else
+                {
+                    // the stock has been updated
+                    string uri = Request.RequestUri.ToString() + "id/" + guitar.Name + " has had  it's stock updated";
+                    return Created(uri, guitar);
+                }
+
             }
             else
             {
@@ -89,23 +77,20 @@ namespace GuitarAPI.Controllers
         }
 
 
-
         public IHttpActionResult DeleteGuitar(string name)
         {
-            lock (inventory)
+            int t = repo.DeleteGuitar(name);
+            if(t == 1)
             {
-                var record = inventory.SingleOrDefault(g => g.Name.ToUpper() == name.ToUpper());
-                if(record != null)
-                {
-                    inventory.Remove(record);
-                    return Ok(inventory.OrderBy(g => g.Name).ToList());
-                }
-                else
-                {
-                    return NotFound();
-                }
+                return Ok(repo.GetAllGuitars());
             }
+            return NotFound();
+
         }
+
+
+
+
 
 
 

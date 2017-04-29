@@ -126,3 +126,9 @@ C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2
 C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarAPI\GuitarAPI\obj\Debug\GuitarAPI.csprojResolveAssemblyReference.cache
 C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarAPI\GuitarAPI\obj\Debug\GuitarAPI.dll
 C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarAPI\GuitarAPI\obj\Debug\GuitarAPI.pdb
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarAPI\GuitarAPI\bin\EntityFramework.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarAPI\GuitarAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarAPI\GuitarAPI\bin\EntityFramework.xml
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarAPI\GuitarAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarAPI\GuitarAPI\obj\Debug\GuitarAPI.Migrations.Initial.resources
+C:\Users\garet\College\4th year\Semester 8\Enterprise Applications Development 2\Labs\Web-API-ASP.NET\GuitarAPI\GuitarAPI\obj\Debug\GuitarAPI.csproj.GenerateResource.Cache
